@@ -19,6 +19,10 @@ $ docker run -d -p 8081:80 --name my-web-bind \
 - app/index.html 수정 후 브라우저 새로고침
 - 변경 후: 수정된 내용이 즉시 반영됨 (이미지 재빌드 없이)
 
+### 스크린샷
+![바인드 마운트 변경 전](images/bind-mount-before.png)
+![바인드 마운트 변경 후](images/bind-mount-after.png)
+
 ## Docker 볼륨
 
 ### 개념
