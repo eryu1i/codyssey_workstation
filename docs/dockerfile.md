@@ -26,10 +26,10 @@ $ docker build -t my-web:1.0 .
 
 # 포트 매핑으로 실행
 $ docker run -d -p 8080:80 --name my-web my-web:1.0
+```
 
 ### 포트 매핑 접속 증거
 ![포트 매핑 접속 화면](images/port-mapping.png)
-```
 
 
 ## B번 - ubuntu 기반 커스텀 환경
